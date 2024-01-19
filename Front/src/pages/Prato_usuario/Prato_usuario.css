@@ -1,0 +1,101 @@
+.voltar {
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 1.5rem;
+    margin-left: 7.625rem;
+}
+
+.voltar p{
+    cursor: pointer;
+    color: var(--Light-Light-300, #E1E1E6);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.voltar img {
+    cursor: pointer;
+}
+
+.sei {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.sei img{
+    width: 24.4rem;
+    height: 24.4rem;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.texto h2 {
+    color: #E1E1E6;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.texto p {
+    color: #E1E1E6;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 42.75rem;
+}
+
+.grupo {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.alface {
+    display: flex;
+    padding: 0.25rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 5px;
+    background: #192227;
+    color:#FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.f {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.f button {
+    width: 12rem;
+}
+
+.quant {
+    display: flex;
+    gap: 0.875rem;
+}
+
+.quant p {
+    width: 1.5rem;
+}
+
+.quant img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}

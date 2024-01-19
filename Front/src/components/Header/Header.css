@@ -1,0 +1,59 @@
+.header {
+    height: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background: #00111A;
+}
+
+.search-container {
+    display: flex;
+    border-radius: 5px;
+    background: #0D1D25;
+    padding: 0.75rem 0.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.875rem;
+    width: 36.3125rem;
+    height: 3rem;
+}
+
+.search-container input {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0D1D25;
+    padding: 0;
+    margin: 0;
+    width: 21.5rem;
+    color: #FFF;
+}
+
+.search-container input::placeholder {
+    color: #7C7C8A;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.pedidos {
+    display: flex;
+    width: 13.5rem;
+    padding: .75rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 5px;
+    background: #750310;
+    height: 3.5rem;
+}
+
+.exit {
+    padding: 0;
+    border: none;
+    background: none;
+    overflow: hidden;
+    width: 2rem;
+}

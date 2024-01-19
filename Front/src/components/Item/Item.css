@@ -1,0 +1,86 @@
+.prato {
+    display: flex;
+    padding: 1.5rem;
+    height: 28.875rem;
+    width: 19rem;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 1rem;
+    border: 1px solid #000204;
+    background: #00070A;
+}
+.prato h3 {
+    color: #E1E1E6;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.prato p {
+    color: #C4C4CC;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.img {
+    display: flex;
+    align-items: start;
+}
+
+.coraçao {
+    cursor: pointer;
+}
+
+.comida {
+    width: 11rem;
+    height: 11rem;
+}
+
+.quantidade {
+    display: flex;
+}
+
+.quantidade img{
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    gap: 1rem;
+}
+.box button{
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 5px;
+    background: #750310;
+    width: 5.75rem;
+    height: 3rem;
+}
+
+.quantidade{
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+}
+
+.prato .preço {
+    color:#82F3FF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.quantidade p{
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-weight: 700;
+}

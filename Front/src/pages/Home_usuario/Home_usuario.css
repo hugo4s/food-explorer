@@ -1,0 +1,84 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+.taste {
+    display: flex;
+}
+
+.taste img {
+    margin-top: 3rem;
+    margin-left: 8rem;
+    position: absolute;
+    object-fit: cover;
+}
+
+.lego {
+    width: 80rem;
+    height: 16.25rem;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #091E26 0%, #00131C 100%);
+    margin-top: 12.25rem;
+    margin-left: 7.75rem;
+    margin-right: 7.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-right: 9.25rem;
+}
+
+.lego h2{
+    color: #E1E1E6;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.lego p {
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.refeiçoes h2{
+    color: #E1E1E6;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 4rem;
+    margin-left: 7.625rem;
+    margin-bottom: 1.43rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 7.6875rem;
+    background: #00111A;
+    margin-top: 2.92rem;
+}
+
+.footer {
+    display: flex;
+    gap: 0.625rem;
+}
+
+.footer p {
+    color: #4D585E;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+footer p {
+    color: #FFFAF1;
+    font-family: Roboto;
+    font-size: 0.75rem;
+    font-weight: 400;
+}

@@ -1,0 +1,14 @@
+#but1 {
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #0D161B;
+    width: 8.4rem;
+    height: 3rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
